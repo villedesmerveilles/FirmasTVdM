@@ -1,0 +1,68 @@
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                     https://rossresources.tumblr.com/
+   
+              TEMPLATE CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+          
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+#rlovesick * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#rlovesick .rcontainer {
+  border: 5px solid var(--accent);
+  box-sizing: border-box;
+  padding: 0 var(--space);
+}
+
+#rlovesick .rcontainer::before {
+  width: 15px;
+  height: var(--iconSize);
+  background: var(--iconImg) left center/cover;
+  content: "";
+  display: inline-block;
+  margin-top: var(--space);
+}
+
+#rlovesick .rsub {
+  height: var(--iconSize);
+  background: var(--accent);
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  padding: var(--space) 5px;
+  color: var(--text);
+  font: 600 26px/90% 'Oswald';
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+#rlovesick .rimg {
+  width: var(--iconSize);
+  height: var(--iconSize);
+  background: var(--iconImg) center/cover;
+  margin: var(--space) 0;
+}
+
+#rlovesick:after {
+  display: block;
+  content: "「R」";
+  font: bold 8px/12px 'Consolas';
+  color: #8e8e8e;
+  text-transform: uppercase;
+  opacity: .5;
+}
+
+#rlovesick:hover::after {
+  content: "「ROSS RESOURCES」";
+}
